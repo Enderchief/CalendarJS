@@ -21,8 +21,6 @@ class VEvent {
 
     Object.keys(this.event).forEach((k) => {
       if (this.event[k]) {
-        console.log(k, this.event[k]);
-
         if (this.event[k] instanceof Array) {
           for (let j = 0; j < this.event[k].length; j++) {
             data.push(`${k.toUpperCase()}:${this.event[k][j]}`);
