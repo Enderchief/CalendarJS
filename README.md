@@ -32,7 +32,7 @@ CalendarJS is written in Typescipt and takes full advantage of the typing it bri
 ### Javascript
 
 ```js
-const { Calendar } = require("cal-js");
+const { Calendar } = require("ical.ts");
 
 const events = [
   {
@@ -56,7 +56,7 @@ const calendar = new Calendar(events);
 ### Typescript
 
 ```ts
-import { Calendar, types } from "cal-js";
+import { Calendar, types } from "ical.ts";
 
 const events: types.CalArgs[] = [
   {

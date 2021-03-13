@@ -1,5 +1,5 @@
 {
-  "name": "calendarjs",
+  "name": "ical.ts",
   "version": "1.0.0",
   "description": "This package helps you create calendars following the iCal spec.",
   "main": "dist/index.js",
@@ -21,8 +21,13 @@
     "cal",
     "ical",
     "calendarjs",
+    "calendarts",
     "caljs",
+    "calts",
     "cal-js",
+    "cal-ts",
+    "ical.js",
+    "ical.ts",
     "icalendar"
   ],
   "author": "Reet S",
