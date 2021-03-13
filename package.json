@@ -1,5 +1,5 @@
 {
-  "name": "ical.ts",
+  "name": "icalendarts",
   "version": "1.0.0",
   "description": "This package helps you create calendars following the iCal spec.",
   "main": "dist/index.js",
@@ -31,5 +31,8 @@
     "icalendar"
   ],
   "author": "Reet S",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.14.34"
+  }
 }
