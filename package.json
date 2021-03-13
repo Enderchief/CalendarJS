@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/Endercheif/CalendarJS#readme",
   "scripts": {
-    "postinstall": "tsc",
+    "prepublish": "npm run build",
     "build": "tsc"
   },
   "keywords": [
