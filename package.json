@@ -4,9 +4,27 @@
   "description": "This package helps you create calendars following the iCal spec.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Endercheif/CalendarJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Endercheif/CalendarJS"
+  },
+  "homepage": "https://github.com/Endercheif/CalendarJS#readme",
   "scripts": {
+    "postinstall": "tsc",
     "build": "tsc"
   },
+  "keywords": [
+    "calendar",
+    "cal",
+    "ical",
+    "calendarjs",
+    "caljs",
+    "cal-js",
+    "icalendar"
+  ],
   "author": "Reet S",
   "license": "MIT",
   "devDependencies": {
