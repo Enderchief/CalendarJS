@@ -16,7 +16,7 @@ class Calendar {
       event.description = args[i].description;
       event.contact = args[i].contact;
       event.uid = `CalJSv${version}${
-        hash(event.dtstart + event.dtend + Date.now()) * 129
+        hash(event.dtstart + event.dtend + event.summary) * 129
       }`;
       console.log(event.uid);
       this.events.push(event);
