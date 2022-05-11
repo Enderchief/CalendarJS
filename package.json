@@ -1,6 +1,6 @@
 {
   "name": "icalendarts",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "This package helps you create calendars following the iCal spec.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
