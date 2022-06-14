@@ -18,9 +18,9 @@ This package was built using node `v10.24.0`.
 To install with node
 
 ```
-npm install cal-js
-yarn add cal-js
-bower install cal-js
+npm install icalendarts
+yarn add icalendarts
+bower install icalendarts
 ```
 
 ---
